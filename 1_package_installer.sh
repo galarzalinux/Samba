@@ -17,5 +17,8 @@ sudo apt-get clean
 sudo apt-get remove
 sudo apt-get autoclean
 sudo apt-get autoremove
+#Uncoment the next lines if Firewall is enabled
+#sudo ufw allow 139/tcp
+#sudo ufw allow 445/tcp
 echo "End of installation"
 echo "################################################################################################"
