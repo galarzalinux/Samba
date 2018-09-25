@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ $USER != root ]; then
-echo "¡Is necessary be root!"
+if [ $USER == root ]; then
+echo "¡Is necessary not to be root!"
 exit 0
 fi
 echo "################################################################################################"
